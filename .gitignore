@@ -1,0 +1,24 @@
+# 🔒 ملفات الحالة و التخزين المؤقت الخاصة بـ Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# 📁 مجلدات النظام الداخلية لـ Terraform
+.terraform/
+.terraform.lock.hcl
+
+# 🧪 ملفات التشغيل المؤقت
+crash.log
+terraform.tfplan
+terraform.tf
+
+# 🚫 أنظمة التشغيل
+.DS_Store  # Mac
+Thumbs.db  # Windows
+
+# ��‍💻 ملفات خاصة بالبيئة
+.env
+*.log
+*.bak
+*.swp
+
